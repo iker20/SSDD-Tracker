@@ -34,10 +34,10 @@ public class TrackerDetailsController {
 
 		Date ahora = new Date();
 		List<TrackersLista> tracker = new ArrayList<TrackersLista>();
-		TrackersLista peer1 = new TrackersLista("1", ahora, false);
-		TrackersLista peer2 = new TrackersLista("2", ahora, true);
-		tracker.add(peer1);
-		tracker.add(peer2);
+		TrackersLista tracker1 = new TrackersLista("1", ahora, false);
+		TrackersLista tracker2 = new TrackersLista("2", ahora, true);
+		tracker.add(tracker1);
+		tracker.add(tracker2);
 
 		return tracker;
 	}
